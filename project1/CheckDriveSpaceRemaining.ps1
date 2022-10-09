@@ -1,5 +1,6 @@
 ﻿# GOAL: to check the space remaining of a selected drive.
 # how to use: input a drive prompted to you
+# the output will be the number of GBs, MBs, KBs, or Bs left on the drive
 # made by Josh Isom
 
 
