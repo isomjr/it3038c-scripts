@@ -7,6 +7,7 @@ pip3 install hashlib
 thats it
 
 SPECIAL THANKS TO:
+
 https://stackoverflow.com/questions/49226804/python-input-menu-function
 
 https://docs.python.org/3/library/os.path.html#os.path.split 
