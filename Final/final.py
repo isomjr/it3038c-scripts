@@ -1,7 +1,7 @@
 import os
 import hashlib
 
-print("Welcome to the NAME IN PROGRESS")
+print("Welcome to Josh Isom's final project")
 print("Looking for hash database...")
 currentpath = os.path.abspath(__file__)
 currentdir = os.path.split(currentpath)
