@@ -8,12 +8,21 @@ thats it
 
 SPECIAL THANKS TO:
 https://stackoverflow.com/questions/49226804/python-input-menu-function
+
 https://docs.python.org/3/library/os.path.html#os.path.split 
+
 https://stackoverflow.com/questions/16874598/how-do-i-calculate-the-md5-checksum-of-a-file-in-python
+
 https://www.debugpointer.com/python/create-md5-hash-of-a-file-in-python
+
 https://stackoverflow.com/questions/4706499/how-do-i-append-to-a-file
+
 https://www.geeksforgeeks.org/create-an-empty-file-using-python/
+
 https://www.simplilearn.com/tutorials/python-tutorial/python-check-if-file-exists
+
 https://stackoverflow.com/questions/32749350/check-if-a-string-is-in-a-file-with-python
+
 https://www.tutorialspoint.com/python/os_walk.htm
+
 and YOU!
