@@ -1,9 +1,12 @@
 The purpose of this script is to add the hashes of a singular file or files in a directory to a text file database.
 A 32 digit md5 hash can then be checked to see if it's present in the database.
 
-YOU WILL NEED TO INSTALL THE HASHLIB LIBRARY.
+STEPS TO RUN THE PROJECT:
+
+1. Install the hashlib library.
 
 pip3 install hashlib
+
 
 
 SPECIAL THANKS TO:
