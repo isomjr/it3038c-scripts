@@ -1,12 +1,15 @@
 import os
 import hashlib
 
+#This script is designed to take a singular file or recursively iterate through directories and hash all files found then add them to a text file database.
+
 print("Welcome to Josh Isom's final project")
 print("Looking for hash database...")
+
+#Checking to see if there's currently a text file to store hashes in.
 currentpath = os.path.abspath(__file__)
 currentdir = os.path.split(currentpath)
 hashdbpath = currentdir[0] + "/hashes.txt"
-
 if os.path.exists(hashdbpath):
     print("Hash database found")
 else:
@@ -14,6 +17,7 @@ else:
     with open('hashes.txt', 'w') as newdb:
         pass
 
+#iterates through the database line by line, designed to check to ensure duplicates aren't added to the database
 def compareDB(a):
     with open('hashes.txt', "r") as db:
         lines = db.readlines()
@@ -21,11 +25,13 @@ def compareDB(a):
             if item.find(a) != -1:
                 return True
 
+#Writes hashes to the database
 def writeHashes(a):
     with open("hashes.txt", "a") as myfile:
          myfile.write(a)
          myfile.write("\n")
-                        
+
+#Checks submitted 32 digit md5 hashes against the database
 def checkHashes():
     go = True
     t = False
@@ -48,7 +54,7 @@ def checkHashes():
             else:
                 print("No hash match found")
 
-
+#Adds hashes to the database. If input is a file, it'll add one. If input is a directory, it will walk through and add all files. Can be very CPU intensive.
 def addHashes():
     go = True
     while go:
@@ -82,6 +88,7 @@ def addHashes():
         else:
             print("Directory or file not found.")
 
+#The main loop of the program.
 def startProgram():
 
     go = True
